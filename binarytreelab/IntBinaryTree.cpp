@@ -235,17 +235,7 @@ int IntBinaryTree::treeHeight()
     return height;
 }
 
-int IntBinaryTree::minValue()
-{
-    struct TreeNode* current = root;
 
-    /* loop down to find the leftmost leaf */
-    while (current->left != NULL)
-    {
-        current = current->left;
-    }
-    return(current->value);
-}
 
 int main()
 {
@@ -264,6 +254,7 @@ int main()
         cout << "\n7. -Exit" << endl;
         cout << "Enter your Option " << endl;
         cin >> opt;
+        system("CLS");
         switch (opt)
         {
         case 1:

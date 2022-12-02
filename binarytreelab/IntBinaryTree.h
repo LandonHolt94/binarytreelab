@@ -51,9 +51,9 @@ public:
    
    int numNodes();
    int treeHeight();
-   int minValue();
+   
 
-   // Overloaded Assignment Operator
+  
    
 };
 #endif
